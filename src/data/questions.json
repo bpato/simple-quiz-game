@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "value": "国",
+            "result": [
+                "country",
+                "コク [koku]",
+                "くに [kuni]"
+            ]
+        },
+        {
+            "value": "金",
+            "result": [
+                "gold",
+                "キン、 コン、 ゴン [kin, kon, gon]",
+                "かね、 かな-、 -がね [kane, kana, gane]"
+            ]
+        },
+        {
+            "value": "話",
+            "result": [
+                "tale, talk",
+                "ワ [wa]",
+                "はな(す)、 はなし [hana(su), hanashi]"
+            ]
+        },
+        {
+            "value": "書",
+            "result": [
+                "write",
+                "ショ [sho]",
+                "か(く) [kaku]"
+            ]
+        },
+        {
+            "value": "読",
+            "result": [
+                "to read",
+                "ドク、 トク、 トウ [doku, toku, tou]",
+                "よ(む) [yo(mu)]"
+            ]
+        }
+    ]
+}
