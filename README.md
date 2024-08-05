@@ -1,8 +1,20 @@
-# React + Vite
+# Simple Quiz Game (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple quiz game as example of how to use react.
 
-Currently, two official plugins are available:
+I made this game to help me to memorize kanjis. The list of kanjis is included as a json file that can be modified to include any type of questions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can see a demo here: https://bpato.github.io/simple-quiz-game/ 
+
+## Todo List
+
+- [ ] Add a selector to switch modes.
+- [ ] Make the question order aleatoric.
+
+## Acknowledgements
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [SWC](https://swc.rs/)
+
+Made with ❤️ by bpato
