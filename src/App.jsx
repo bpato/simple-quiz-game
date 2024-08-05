@@ -3,7 +3,6 @@ import confetti from 'canvas-confetti';
 import { QuestionOption } from './components/QuestionOption';
 import { WinnerModal } from './components/WinnerModal';
 
-import { MODE } from './constants';
 import { fillBoard } from './utils/board'
 
 import { useState } from 'react';
@@ -11,7 +10,7 @@ import { useState } from 'react';
 import './App.css'
 
 
-import { questions } from "./data/questions.json";
+import { MODE, questions } from "./data/questions.json";
 
 
 export default function App() {
@@ -61,8 +60,7 @@ export default function App() {
                 particleCount: 100,
                 spread: 70,
                 origin: {
-                    x: e.pageX / document.documentElement.scrollHeight,
-                    y: e.pageY / document.documentElement.scrollWidth  
+                    y: 0.4  
                 }
             });
         }
@@ -71,7 +69,7 @@ export default function App() {
 
     return (
         <main className='gq-board'>
-            <h1>Questions Game</h1>
+            <h1>Simple Quiz Game</h1>
             <section className='gq-game'>
                 <header className='gq-game-header'>
                     <span className='gq-game-question'>{questions[indexQuestion].value}</span>

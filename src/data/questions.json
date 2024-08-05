@@ -1,5 +1,26 @@
 {
+    "MODE": {
+        "TRADUCTION": 0,
+        "ONYOMI": 1,
+        "KUNYOMI": 2
+    },
     "questions": [
+        {
+            "value": "日",
+            "result": [
+                "day, sun, Japan, counter for days",
+                "ニチ, ジツ [nichi, jitsu]",
+                "ひ, -び, -か [hi, -bi, -ka]"
+            ]
+        },
+        {
+            "value": "一",
+            "result": [
+                "one",
+                "イチ [ichi]",
+                "ひと(つ) [hito(tsu)]"
+            ]
+        },
         {
             "value": "国",
             "result": [
@@ -9,35 +30,139 @@
             ]
         },
         {
-            "value": "金",
+            "value": "人",
             "result": [
-                "gold",
-                "キン、 コン、 ゴン [kin, kon, gon]",
-                "かね、 かな-、 -がね [kane, kana, gane]"
+                "person",
+                "ジン、 ニン [jin, nin]",
+                "ひと [hito]"
             ]
         },
         {
-            "value": "話",
+            "value": "年",
             "result": [
-                "tale, talk",
-                "ワ [wa]",
-                "はな(す)、 はなし [hana(su), hanashi]"
+                "year, counter for years",
+                "ネン [nen]",
+                "とし [toshi]"
             ]
         },
         {
-            "value": "書",
+            "value": "大",
             "result": [
-                "write",
-                "ショ [sho]",
-                "か(く) [kaku]"
+                "large, big",
+                "ダイ、 タイ [dai, tai]",
+                "おお(きい) [oo(kii)]"
             ]
         },
         {
-            "value": "読",
+            "value": "十",
             "result": [
-                "to read",
-                "ドク、 トク、 トウ [doku, toku, tou]",
-                "よ(む) [yo(mu)]"
+                "ten, 10",
+                "ジュウ [juu]",
+                "とお、 と [tou, to]"
+            ]
+        },
+        {
+            "value": "二",
+            "result": [
+                "two, 2",
+                "ニ、 ジ [ni, ji]",
+                "ふた(つ) [futa(tsu)]"
+            ]
+        },
+        {
+            "value": "本",
+            "result": [
+                "book, present, true, counter for long cylindrical things",
+                "ホン [hon]",
+                "もと [moto]"
+            ]
+        },
+        {
+            "value": "中",
+            "result": [
+                "in, inside, middle, mean, center",
+                "チュウ [chuu]",
+                "なか、 うち、 あた(る) [naka, uchi, ata(ru)]"
+            ]
+        },
+        {
+            "value": "長",
+            "result": [
+                "long, leader, superior, senior",
+                "チョウ [chou]",
+                "なが(い)、 おさ [naga(i), osa]"
+            ]
+        },
+        {
+            "value": "出",
+            "result": [
+                "exit, leave, go out",
+                "シュツ、 スイ [shutsu, sui]",
+                "で(る)、 だ(す)、 い(でる) [de(ru), da(su), i(deru)]"
+            ]
+        },
+        {
+            "value": "三",
+            "result": [
+                "three, 3",
+                "サン [san]",
+                "み(つ) [mi(tsu)]"
+            ]
+        },
+        {
+            "value": "時",
+            "result": [
+                "time, hour",
+                "ジ [ji]",
+                "とき、 -どき [toki, doki]"
+            ]
+        },
+        {
+            "value": "行",
+            "result": [
+                "going, journey, carry out, line, row",
+                "コウ、 ギョウ、 アン [kou, gyou, an]",
+                "い(く)、 ゆ(く)、 おこな(う) [i(ku), yu(ku), okona(u)]"
+            ]
+        },
+        {
+            "value": "見",
+            "result": [
+                "see, hopes, chances, idea, opinion, look at, visible",
+                "ケン [ken]",
+                "み(る)、 み(せる) [mi(ru), mi(seru)]"
+            ]
+        },
+        {
+            "value": "月",
+            "result": [
+                "month, moon",
+                "ゲツ、 ガツ [getsu, gatsu]",
+                "つき [tsuki]"
+            ]
+        },
+        {
+            "value": "分",
+            "result": [
+                "part, minute of time, understand",
+                "ブン、 フン、 ブ [bun, fun, bu]",
+                "わ(ける) [wa(keru)]"
+            ]
+        },
+        {
+            "value": "後",
+            "result": [
+                "behind, back, later",
+                "ゴ、 コウ [go, kou]",
+                "のち、 うし(ろ)、 あと [nochi, ushi(ro), ato]"
+            ]
+        },
+        {
+            "value": "前",
+            "result": [
+                "in front, before",
+                "ゼン [zen]",
+                "まえ [mae]"
             ]
         }
     ]

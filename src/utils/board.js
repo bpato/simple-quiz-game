@@ -1,5 +1,4 @@
-import { questions } from "../data/questions.json";
-import { MODE } from '../constants';
+import { MODE, questions } from "../data/questions.json";
 
 const getRandomInt = (max, avoidIds = []) => {
     let int = null;
