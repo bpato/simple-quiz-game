@@ -18,7 +18,7 @@ a {
   color: white;
 }
 
-footer {
+.main-footer {
   position: absolute;
   bottom: 25px;
 }
