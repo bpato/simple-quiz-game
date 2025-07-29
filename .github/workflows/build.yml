@@ -34,6 +34,7 @@ jobs:
 
       # Step 3
       - name: Docker build
+        shell: bash
         run: |
           echo "CONTAINER_NAME=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
           echo "Container name: $CONTAINER_NAME"
