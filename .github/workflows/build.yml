@@ -36,7 +36,9 @@ jobs:
       - name: Docker build
         run: |
           echo "CONTAINER_NAME=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
+          echo "Container name: $CONTAINER_NAME"
           echo "USER_NAME=${CONTAINER_NAME%%/*}" >> $GITHUB_ENV
+          echo "User name: $USER_NAME"
           docker build -t ghcr.io/${{ env.CONTAINER_NAME }}:latest .
           docker build -t ghcr.io/${{ env.CONTAINER_NAME }}:${{ env.VERSION }} .
 
