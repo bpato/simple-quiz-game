@@ -1,5 +1,7 @@
 FROM node:18-alpine
 
+LABEL org.opencontainers.image.source https://github.com/bpato/simple-quiz-game
+
 WORKDIR /app
 
 COPY package.json .
