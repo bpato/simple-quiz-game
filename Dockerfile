@@ -8,7 +8,7 @@ RUN npm install -g pnpm
 
 RUN pnpm install
 
-RUN pnpm i -g serve
+RUN npm i -g serve
 
 COPY . .
 

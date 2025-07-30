@@ -33,9 +33,11 @@ jobs:
       - name: Set up variables
         shell: bash
         run: |
-          echo "CONTAINER_NAME=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
+          CONTAINER_NAME=${GITHUB_REPOSITORY,,}
+          echo "CONTAINER_NAME=${CONTAINER_NAME}" >> $GITHUB_ENV
           echo "Container name: $CONTAINER_NAME"
-          echo "USER_NAME=${CONTAINER_NAME%%/*}" >> $GITHUB_ENV
+          USER_NAME=${CONTAINER_NAME%%/*}
+          echo "USER_NAME=${USER_NAME}" >> $GITHUB_ENV
           echo "User name: $USER_NAME"
 
       # --- Build Stage ---
