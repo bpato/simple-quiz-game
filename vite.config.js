@@ -1,8 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: '/simple-quiz-game/'
-})
+export default defineConfig(() => {
+  const base = process.env.BASE_PATH || "/";
+  return {
+    base,
+    plugins: [react()],
+  };
+});

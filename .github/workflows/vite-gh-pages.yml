@@ -36,6 +36,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Set up variables
+        shell: bash
+        run: |
+          BASE_PATH=${GITHUB_REPOSITORY#*/}
+          echo "BASE_PATH=${BASE_PATH}" >> $GITHUB_ENV
+          echo "Base path: $BASE_PATH"
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
