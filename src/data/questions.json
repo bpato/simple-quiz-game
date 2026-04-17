@@ -6,99 +6,19 @@
     },
     "questions": [
         {
-            "value": "日",
-            "result": [
-                "day, sun, Japan, counter for days",
-                "ニチ, ジツ [nichi, jitsu]",
-                "ひ, -び, -か [hi, -bi, -ka]"
-            ]
-        },
-        {
             "value": "一",
             "result": [
-                "one",
+                "one, 1",
                 "イチ [ichi]",
                 "ひと(つ) [hito(tsu)]"
-            ]
-        },
-        {
-            "value": "国",
-            "result": [
-                "country",
-                "コク [koku]",
-                "くに [kuni]"
-            ]
-        },
-        {
-            "value": "人",
-            "result": [
-                "person",
-                "ジン、 ニン [jin, nin]",
-                "ひと [hito]"
-            ]
-        },
-        {
-            "value": "年",
-            "result": [
-                "year, counter for years",
-                "ネン [nen]",
-                "とし [toshi]"
-            ]
-        },
-        {
-            "value": "大",
-            "result": [
-                "large, big",
-                "ダイ、 タイ [dai, tai]",
-                "おお(きい) [oo(kii)]"
-            ]
-        },
-        {
-            "value": "十",
-            "result": [
-                "ten, 10",
-                "ジュウ [juu]",
-                "とお、 と [tou, to]"
             ]
         },
         {
             "value": "二",
             "result": [
                 "two, 2",
-                "ニ、 ジ [ni, ji]",
+                "ニ [ni]",
                 "ふた(つ) [futa(tsu)]"
-            ]
-        },
-        {
-            "value": "本",
-            "result": [
-                "book, present, true, counter for long cylindrical things",
-                "ホン [hon]",
-                "もと [moto]"
-            ]
-        },
-        {
-            "value": "中",
-            "result": [
-                "in, inside, middle, mean, center",
-                "チュウ [chuu]",
-                "なか、 うち、 あた(る) [naka, uchi, ata(ru)]"
-            ]
-        },
-        {
-            "value": "長",
-            "result": [
-                "long, leader, superior, senior",
-                "チョウ [chou]",
-                "なが(い)、 おさ [naga(i), osa]"
-            ]
-        },
-        {
-            "value": "出",
-            "result": [
-                "exit, leave, go out",
-                "シュツ、 スイ [shutsu, sui]",
-                "で(る)、 だ(す)、 い(でる) [de(ru), da(su), i(deru)]"
             ]
         },
         {
@@ -110,27 +30,99 @@
             ]
         },
         {
-            "value": "時",
+            "value": "四",
             "result": [
-                "time, hour",
-                "ジ [ji]",
-                "とき、 -どき [toki, doki]"
+                "four, 4",
+                "シ [shi]",
+                "よ(つ)、 よん [yo(tsu), yon]"
             ]
         },
         {
-            "value": "行",
+            "value": "五",
             "result": [
-                "going, journey, carry out, line, row",
-                "コウ、 ギョウ、 アン [kou, gyou, an]",
-                "い(く)、 ゆ(く)、 おこな(う) [i(ku), yu(ku), okona(u)]"
+                "five, 5",
+                "ゴ [go]",
+                "いつ(つ) [itsu(tsu)]"
             ]
         },
         {
-            "value": "見",
+            "value": "六",
             "result": [
-                "see, hopes, chances, idea, opinion, look at, visible",
-                "ケン [ken]",
-                "み(る)、 み(せる) [mi(ru), mi(seru)]"
+                "six, 6",
+                "ロク [roku]",
+                "む(つ) [mu(tsu)]"
+            ]
+        },
+        {
+            "value": "七",
+            "result": [
+                "seven, 7",
+                "シチ [shichi]",
+                "なな(つ) [nana(tsu)]"
+            ]
+        },
+        {
+            "value": "八",
+            "result": [
+                "eight, 8",
+                "ハチ [hachi]",
+                "や(つ) [ya(tsu)]"
+            ]
+        },
+        {
+            "value": "九",
+            "result": [
+                "nine, 9",
+                "キュウ、 ク [kyuu, ku]",
+                "ここの(つ) [koko(no(tsu))]"
+            ]
+        },
+        {
+            "value": "十",
+            "result": [
+                "ten, 10",
+                "ジュウ [juu]",
+                "とお [tou]"
+            ]
+        },
+        {
+            "value": "百",
+            "result": [
+                "hundred, 100",
+                "ヒャク [hyaku]",
+                ""
+            ]
+        },
+        {
+            "value": "千",
+            "result": [
+                "thousand, 1000",
+                "セン [sen]",
+                "ち [chi]"
+            ]
+        },
+        {
+            "value": "万",
+            "result": [
+                "ten thousand, 10000",
+                "マン、 バン [man, ban]",
+                ""
+            ]
+        },
+        {
+            "value": "円",
+            "result": [
+                "yen, circle, round",
+                "エン [en]",
+                "まる(い) [maru(i)]"
+            ]
+        },
+        {
+            "value": "日",
+            "result": [
+                "day, sun, Japan",
+                "ニチ、 ジツ [nichi, jitsu]",
+                "ひ、 -び、 -か [hi, -bi, -ka]"
             ]
         },
         {
@@ -142,27 +134,1171 @@
             ]
         },
         {
-            "value": "分",
+            "value": "火",
             "result": [
-                "part, minute of time, understand",
-                "ブン、 フン、 ブ [bun, fun, bu]",
-                "わ(ける) [wa(keru)]"
+                "fire",
+                "カ [ka]",
+                "ひ、 -び [hi, -bi]"
             ]
         },
         {
-            "value": "後",
+            "value": "水",
             "result": [
-                "behind, back, later",
-                "ゴ、 コウ [go, kou]",
-                "のち、 うし(ろ)、 あと [nochi, ushi(ro), ato]"
+                "water",
+                "スイ [sui]",
+                "みず [mizu]"
+            ]
+        },
+        {
+            "value": "木",
+            "result": [
+                "tree, wood",
+                "モク、 ボク [moku, boku]",
+                "き [ki]"
+            ]
+        },
+        {
+            "value": "金",
+            "result": [
+                "gold, money",
+                "キン、 コン [kin, kon]",
+                "かね [kane]"
+            ]
+        },
+        {
+            "value": "土",
+            "result": [
+                "earth, soil",
+                "ド、 ト [do, to]",
+                "つち [tsuchi]"
+            ]
+        },
+        {
+            "value": "山",
+            "result": [
+                "mountain",
+                "サン [san]",
+                "やま [yama]"
+            ]
+        },
+        {
+            "value": "川",
+            "result": [
+                "river",
+                "セン [sen]",
+                "かわ [kawa]"
+            ]
+        },
+        {
+            "value": "田",
+            "result": [
+                "rice field",
+                "デン [den]",
+                "た [ta]"
+            ]
+        },
+        {
+            "value": "海",
+            "result": [
+                "sea, ocean",
+                "カイ [kai]",
+                "うみ [umi]"
+            ]
+        },
+        {
+            "value": "空",
+            "result": [
+                "sky, empty",
+                "クウ [kuu]",
+                "そら、 あ(く)、 あ(ける) [sora, a(ku), a(keru)]"
+            ]
+        },
+        {
+            "value": "風",
+            "result": [
+                "wind",
+                "フウ [fuu]",
+                "かぜ、 か(じる) [kaze, ka(jiru)]"
+            ]
+        },
+        {
+            "value": "雨",
+            "result": [
+                "rain",
+                "ウ [u]",
+                "あめ、 あま [ame, ama]"
+            ]
+        },
+        {
+            "value": "雪",
+            "result": [
+                "snow",
+                "セツ [setsu]",
+                "ゆき [yuki]"
+            ]
+        },
+        {
+            "value": "人",
+            "result": [
+                "person",
+                "ジン、 ニン [jin, nin]",
+                "ひと [hito]"
+            ]
+        },
+        {
+            "value": "男",
+            "result": [
+                "man, male",
+                "ダン、 ナン [dan, nan]",
+                "おとこ [otoko]"
+            ]
+        },
+        {
+            "value": "女",
+            "result": [
+                "woman, female",
+                "ジョ、 ニョ [jo, nyo]",
+                "おんな [onna]"
+            ]
+        },
+        {
+            "value": "子",
+            "result": [
+                "child",
+                "シ、 ス [shi, su]",
+                "こ、 -こ [ko, -ko]"
+            ]
+        },
+        {
+            "value": "父",
+            "result": [
+                "father",
+                "フ [fu]",
+                "ちち [chichi]"
+            ]
+        },
+        {
+            "value": "母",
+            "result": [
+                "mother",
+                "ボ [bo]",
+                "はは [haha]"
+            ]
+        },
+        {
+            "value": "兄",
+            "result": [
+                "older brother",
+                "ケイ [kei]",
+                "あに [ani]"
+            ]
+        },
+        {
+            "value": "弟",
+            "result": [
+                "younger brother",
+                "テイ、 ダイ [tei, dai]",
+                "おとうと [otouto]"
+            ]
+        },
+        {
+            "value": "姉",
+            "result": [
+                "older sister",
+                "シ [shi]",
+                "あね [ane]"
+            ]
+        },
+        {
+            "value": "妹",
+            "result": [
+                "younger sister",
+                "マイ [mai]",
+                "いもうと [imouto]"
+            ]
+        },
+        {
+            "value": "友",
+            "result": [
+                "friend",
+                "ユウ [yuu]",
+                "とも [tomo]"
+            ]
+        },
+        {
+            "value": "家",
+            "result": [
+                "house, home",
+                "カ [ka]",
+                "いえ、 や [ie, ya]"
+            ]
+        },
+        {
+            "value": "大",
+            "result": [
+                "big, large",
+                "ダイ、 タイ [dai, tai]",
+                "おお(きい)、 おお(いに) [oo(kii), oo(i ni)]"
+            ]
+        },
+        {
+            "value": "小",
+            "result": [
+                "small, little",
+                "ショウ [shou]",
+                "ちい(さい)、 こ、 お [chii(sai), ko, o]"
+            ]
+        },
+        {
+            "value": "高",
+            "result": [
+                "tall, high, expensive",
+                "コウ [kou]",
+                "たか(い)、 たか(める) [taka(i), taka(meru)]"
+            ]
+        },
+        {
+            "value": "長",
+            "result": [
+                "long, leader",
+                "チョウ [chou]",
+                "なが(い)、 おさ [naga(i), osa]"
+            ]
+        },
+        {
+            "value": "上",
+            "result": [
+                "up, above",
+                "ジョウ、 ショウ [jou, shou]",
+                "うえ、 あ(げる)、 のぼ(る) [ue, a(geru), nobo(ru)]"
+            ]
+        },
+        {
+            "value": "下",
+            "result": [
+                "down, below, under",
+                "カ、 ゲ [ka, ge]",
+                "した、 さ(げる)、 くだ(る)、 おり(る) [shita, sa(geru), kuda(ru), ori(ru)]"
+            ]
+        },
+        {
+            "value": "左",
+            "result": [
+                "left",
+                "サ [sa]",
+                "ひだり [hidari]"
+            ]
+        },
+        {
+            "value": "右",
+            "result": [
+                "right",
+                "ウ、 ユウ [u, yuu]",
+                "みぎ [migi]"
             ]
         },
         {
             "value": "前",
             "result": [
-                "in front, before",
+                "front, before",
                 "ゼン [zen]",
                 "まえ [mae]"
+            ]
+        },
+        {
+            "value": "後",
+            "result": [
+                "behind, after, later",
+                "ゴ、 コウ [go, kou]",
+                "あと、 のち、 うし(ろ) [ato, nochi, ushi(ro)]"
+            ]
+        },
+        {
+            "value": "中",
+            "result": [
+                "inside, middle, center",
+                "チュウ [chuu]",
+                "なか、 うち [naka, uchi]"
+            ]
+        },
+        {
+            "value": "外",
+            "result": [
+                "outside",
+                "ガイ、 ゲ [gai, ge]",
+                "そと、 はず(れる)、 はず(す) [soto, hazu(reru), hazu(su)]"
+            ]
+        },
+        {
+            "value": "間",
+            "result": [
+                "interval, between, room",
+                "カン、 ケン [kan, ken]",
+                "あいだ、 ま [aida, ma]"
+            ]
+        },
+        {
+            "value": "年",
+            "result": [
+                "year",
+                "ネン [nen]",
+                "とし [toshi]"
+            ]
+        },
+        {
+            "value": "時",
+            "result": [
+                "hour, time, o'clock",
+                "ジ [ji]",
+                "とき、 -どき [toki, -doki]"
+            ]
+        },
+        {
+            "value": "分",
+            "result": [
+                "minute, part",
+                "ブン、 フン、 ブ [bun, fun, bu]",
+                "わ(ける)、 わ(かれる) [wa(keru), wa(kareru)]"
+            ]
+        },
+        {
+            "value": "曜",
+            "result": [
+                "weekday",
+                "ヨウ [you]",
+                ""
+            ]
+        },
+        {
+            "value": "朝",
+            "result": [
+                "morning",
+                "チョウ [chou]",
+                "あさ [asa]"
+            ]
+        },
+        {
+            "value": "昼",
+            "result": [
+                "daytime, noon",
+                "チュウ [chuu]",
+                "ひる [hiru]"
+            ]
+        },
+        {
+            "value": "夜",
+            "result": [
+                "night, evening",
+                "ヤ [ya]",
+                "よる、 よ [yoru, yo]"
+            ]
+        },
+        {
+            "value": "今",
+            "result": [
+                "now, present",
+                "コン、 キン [kon, kin]",
+                "いま [ima]"
+            ]
+        },
+        {
+            "value": "先",
+            "result": [
+                "previous, ahead, future",
+                "セン [sen]",
+                "さき、 まず [saki, mazu]"
+            ]
+        },
+        {
+            "value": "何",
+            "result": [
+                "what",
+                "カ [ka]",
+                "なに、 なん [nani, nan]"
+            ]
+        },
+        {
+            "value": "誰",
+            "result": [
+                "who",
+                "スイ [sui]",
+                "だれ [dare]"
+            ]
+        },
+        {
+            "value": "口",
+            "result": [
+                "mouth",
+                "コウ、 ク [kou, ku]",
+                "くち [kuchi]"
+            ]
+        },
+        {
+            "value": "目",
+            "result": [
+                "eye",
+                "モク、 ボク [moku, boku]",
+                "め [me]"
+            ]
+        },
+        {
+            "value": "耳",
+            "result": [
+                "ear",
+                "ジ [ji]",
+                "みみ [mimi]"
+            ]
+        },
+        {
+            "value": "手",
+            "result": [
+                "hand",
+                "シュ [shu]",
+                "て [te]"
+            ]
+        },
+        {
+            "value": "足",
+            "result": [
+                "foot, leg",
+                "ソク [soku]",
+                "あし、 た(りる)、 た(る) [ashi, ta(riru), ta(ru)]"
+            ]
+        },
+        {
+            "value": "見",
+            "result": [
+                "see, look at",
+                "ケン [ken]",
+                "み(る)、 み(せる) [mi(ru), mi(seru)]"
+            ]
+        },
+        {
+            "value": "聞",
+            "result": [
+                "hear, listen, ask",
+                "ブン、 モン [bun, mon]",
+                "き(く) [ki(ku)]"
+            ]
+        },
+        {
+            "value": "読",
+            "result": [
+                "read",
+                "ドク、 トク、 ジ [doku, toku, ji]",
+                "よ(む) [yo(mu)]"
+            ]
+        },
+        {
+            "value": "書",
+            "result": [
+                "write",
+                "ショ [sho]",
+                "か(く) [ka(ku)]"
+            ]
+        },
+        {
+            "value": "話",
+            "result": [
+                "speak, talk",
+                "ワ [wa]",
+                "はな(す)、 はなし [hana(su), hanashi]"
+            ]
+        },
+        {
+            "value": "行",
+            "result": [
+                "go",
+                "コウ、 ギョウ [kou, gyou]",
+                "い(く)、 ゆ(く)、 おこな(う) [i(ku), yu(ku), okona(u)]"
+            ]
+        },
+        {
+            "value": "来",
+            "result": [
+                "come",
+                "ライ [rai]",
+                "く(る)、 きた(る)、 き(たす) [ku(ru), kita(ru), ki(tasu)]"
+            ]
+        },
+        {
+            "value": "出",
+            "result": [
+                "exit, go out",
+                "シュツ、 スイ [shutsu, sui]",
+                "で(る)、 だ(す)、 い(でる) [de(ru), da(su), i(deru)]"
+            ]
+        },
+        {
+            "value": "入",
+            "result": [
+                "enter, come in",
+                "ニュウ、 ジュ [nyuu, ju]",
+                "はい(る)、 い(れる) [hai(ru), i(reru)]"
+            ]
+        },
+        {
+            "value": "食",
+            "result": [
+                "eat, food",
+                "ショク、 ジキ [shoku, jiki]",
+                "た(べる)、 く(う) [ta(beru), ku(u)]"
+            ]
+        },
+        {
+            "value": "飲",
+            "result": [
+                "drink",
+                "イン [in]",
+                "の(む) [no(mu)]"
+            ]
+        },
+        {
+            "value": "買",
+            "result": [
+                "buy",
+                "バイ [bai]",
+                "か(う) [ka(u)]"
+            ]
+        },
+        {
+            "value": "学",
+            "result": [
+                "study, learning",
+                "ガク [gaku]",
+                "まな(ぶ) [mana(bu)]"
+            ]
+        },
+        {
+            "value": "校",
+            "result": [
+                "school",
+                "コウ [kou]",
+                ""
+            ]
+        },
+        {
+            "value": "生",
+            "result": [
+                "life, birth, raw",
+                "セイ、 ショウ [sei, shou]",
+                "い(きる)、 う(まれる)、 なま、 いは(える) [i(kiru), u(mareru), nama, iha(eru)]"
+            ]
+        },
+        {
+            "value": "国",
+            "result": [
+                "country, nation",
+                "コク [koku]",
+                "くに [kuni]"
+            ]
+        },
+        {
+            "value": "語",
+            "result": [
+                "language, word",
+                "ゴ [go]",
+                "かた(る)、 かた(らい) [kata(ru), kata(rai)]"
+            ]
+        },
+        {
+            "value": "車",
+            "result": [
+                "car, vehicle",
+                "シャ [sha]",
+                "くるま [kuruma]"
+            ]
+        },
+        {
+            "value": "電",
+            "result": [
+                "electricity",
+                "デン [den]",
+                ""
+            ]
+        },
+        {
+            "value": "気",
+            "result": [
+                "spirit, energy, feeling",
+                "キ、 ケ [ki, ke]",
+                ""
+            ]
+        },
+        {
+            "value": "力",
+            "result": [
+                "power, strength",
+                "リョク、 リキ [ryoku, riki]",
+                "ちから [chikara]"
+            ]
+        },
+        {
+            "value": "白",
+            "result": [
+                "white",
+                "ハク、 ビャク [haku, byaku]",
+                "しろ、 しら(い) [shiro, shira(i)]"
+            ]
+        },
+        {
+            "value": "黒",
+            "result": [
+                "black",
+                "コク [koku]",
+                "くろ、 くろ(い) [kuro, kuro(i)]"
+            ]
+        },
+        {
+            "value": "赤",
+            "result": [
+                "red",
+                "セキ、 シャク [seki, shaku]",
+                "あか、 あか(い) [aka, aka(i)]"
+            ]
+        },
+        {
+            "value": "青",
+            "result": [
+                "blue, green",
+                "セイ、 ショウ [sei, shou]",
+                "あお、 あお(い) [ao, ao(i)]"
+            ]
+        },
+        {
+            "value": "色",
+            "result": [
+                "color",
+                "ショク、 シキ [shoku, shiki]",
+                "いろ [iro]"
+            ]
+        },
+        {
+            "value": "本",
+            "result": [
+                "book, origin, this",
+                "ホン [hon]",
+                "もと [moto]"
+            ]
+        },
+        {
+            "value": "店",
+            "result": [
+                "shop, store",
+                "テン [ten]",
+                "みせ、 たな [mise, tana]"
+            ]
+        },
+        {
+            "value": "社",
+            "result": [
+                "company, shrine",
+                "シャ [sha]",
+                "やしろ [yashiro]"
+            ]
+        },
+        {
+            "value": "働",
+            "result": [
+                "work",
+                "ドウ [dou]",
+                "はたら(く) [hatara(ku)]"
+            ]
+        },
+        {
+            "value": "休",
+            "result": [
+                "rest, vacation",
+                "キュウ [kyuu]",
+                "やす(む)、 やす(める) [yasu(mu), yasu(meru)]"
+            ]
+        },
+        {
+            "value": "計",
+            "result": [
+                "measure, plan",
+                "ケイ [kei]",
+                "はか(る)、 はか(り) [haka(ru), haka(ri)]"
+            ]
+        },
+        {
+            "value": "市",
+            "result": [
+                "city, market",
+                "シ [shi]",
+                "いち [ichi]"
+            ]
+        },
+        {
+            "value": "立",
+            "result": [
+                "stand up",
+                "リツ、 リュウ [ritsu, ryuu]",
+                "た(つ)、 た(てる) [ta(tsu), ta(teru)]"
+            ]
+        },
+        {
+            "value": "帰",
+            "result": [
+                "return home",
+                "キ [ki]",
+                "かえ(る)、 かえ(す) [kae(ru), kae(su)]"
+            ]
+        },
+        {
+            "value": "勉",
+            "result": [
+                "effort, study",
+                "ベン [ben]",
+                "つと(める) [tsuto(meru)]"
+            ]
+        },
+        {
+            "value": "強",
+            "result": [
+                "strong",
+                "キョウ、 ゴウ [kyou, gou]",
+                "つよ(い)、 つよ(める) [tsuyo(i), tsuyo(meru)]"
+            ]
+        },
+        {
+            "value": "病",
+            "result": [
+                "illness, sick",
+                "ビョウ、 ヘイ [byou, hei]",
+                "や(む)、 やまい [ya(mu), yamai]"
+            ]
+        },
+        {
+            "value": "院",
+            "result": [
+                "institution, hospital",
+                "イン [in]",
+                ""
+            ]
+        },
+        {
+            "value": "死",
+            "result": [
+                "death, die",
+                "シ [shi]",
+                "し(ぬ)、 、し(わせる) [shi(nu), -shi(sawaseru)]"
+            ]
+        },
+        {
+            "value": "知",
+            "result": [
+                "know, wisdom",
+                "チ [chi]",
+                "し(る) [shi(ru)]"
+            ]
+        },
+        {
+            "value": "言",
+            "result": [
+                "say, word",
+                "ゲン、 ゴン [gen, gon]",
+                "い(う)、 こと [i(u), koto]"
+            ]
+        },
+        {
+            "value": "理",
+            "result": [
+                "reason, logic",
+                "リ [ri]",
+                ""
+            ]
+        },
+        {
+            "value": "作",
+            "result": [
+                "make, create",
+                "サク、 サ [saku, sa]",
+                "つく(る) [tsuku(ru)]"
+            ]
+        },
+        {
+            "value": "対",
+            "result": [
+                "versus, opposite",
+                "タイ、 ツイ [tai, tsui]",
+                ""
+            ]
+        },
+        {
+            "value": "度",
+            "result": [
+                "degree, time",
+                "ド、 タク [do, taku]",
+                "たび [tabi]"
+            ]
+        },
+        {
+            "value": "毎",
+            "result": [
+                "every",
+                "マイ [mai]",
+                ""
+            ]
+        },
+        {
+            "value": "同",
+            "result": [
+                "same",
+                "ドウ [dou]",
+                "おな(じ) [ona(ji)]"
+            ]
+        },
+        {
+            "value": "現",
+            "result": [
+                "present, current, appear",
+                "ゲン [gen]",
+                "あら(われる)、 あらわ(す) [ara(wareru), arawa(su)]"
+            ]
+        },
+        {
+            "value": "題",
+            "result": [
+                "topic, title",
+                "ダイ [dai]",
+                ""
+            ]
+        },
+        {
+            "value": "意",
+            "result": [
+                "meaning, intention",
+                "イ [i]",
+                ""
+            ]
+        },
+        {
+            "value": "好",
+            "result": [
+                "like, fond of",
+                "コウ [kou]",
+                "この(む)、 よ(い) [kono(mu), yo(i)]"
+            ]
+        },
+        {
+            "value": "不",
+            "result": [
+                "not, un-",
+                "フ、 ブ [fu, bu]",
+                ""
+            ]
+        },
+        {
+            "value": "明",
+            "result": [
+                "bright, next",
+                "メイ、 ミョウ [mei, myou]",
+                "あか(るい)、 あか(るむ)、 あか(らむ)、 あき(らか) [aka(rui), aka(rumu), akara(mu), aki(raka)]"
+            ]
+        },
+        {
+            "value": "暗",
+            "result": [
+                "dark",
+                "アン [an]",
+                "くら(い)、 く(らす) [kura(i), ku(rasu)]"
+            ]
+        },
+        {
+            "value": "静",
+            "result": [
+                "quiet, calm",
+                "セイ、 ジョウ [sei, jou]",
+                "しず(か)、 しず(まる)、 しず(める) [shizu(ka), shizu(maru), shizu(meru)]"
+            ]
+        },
+        {
+            "value": "速",
+            "result": [
+                "fast, quick",
+                "ソク [soku]",
+                "はや(い)、 はや(める)、 すみ(やか) [haya(i), haya(meru), sumi(yaka)]"
+            ]
+        },
+        {
+            "value": "遅",
+            "result": [
+                "slow, late",
+                "チ [chi]",
+                "おそ(い)、 おく(らす)、 おく(れる) [oso(i), oku(rasu), oku(reru)]"
+            ]
+        },
+        {
+            "value": "新",
+            "result": [
+                "new",
+                "シン [shin]",
+                "あたら(しい)、 あら(た)、 あら(たな)、 に(い) [antara(shii), ara(ta), ara(ta na), ni(i)]"
+            ]
+        },
+        {
+            "value": "古",
+            "result": [
+                "old, ancient",
+                "コ [ko]",
+                "ふる(い)、 ふる(す)、 ふろ(しい) [furu(i), furu(su), furo(shii)]"
+            ]
+        },
+        {
+            "value": "安",
+            "result": [
+                "cheap, safe, peaceful",
+                "アン [an]",
+                "やす(い)、 やす(まる)、 やす(らぐ)、 やす(らげる) [yasu(i), yasu(maru), yasu(ragu), yasu(rageru)]"
+            ]
+        },
+        {
+            "value": "多",
+            "result": [
+                "many, much",
+                "タ [ta]",
+                "おお(い) [oo(i)]"
+            ]
+        },
+        {
+            "value": "少",
+            "result": [
+                "few, little",
+                "ショウ [shou]",
+                "すく(ない)、 すこ(し)、 すくな(い) [suku(nai), suko(shi), sukuna(i)]"
+            ]
+        },
+        {
+            "value": "広",
+            "result": [
+                "wide, spacious",
+                "コウ [kou]",
+                "ひろ(い)、 ひろ(げる)、 ひろ(まる)、 ひろ(める) [hiro(i), hiro(geru), hiro(maru), hiro(meru)]"
+            ]
+        },
+        {
+            "value": "狭",
+            "result": [
+                "narrow, tight",
+                "キョウ [kyou]",
+                "せま(い)、 せば(める)、 せば(まる) [sema(i), seba(meru), seba(maru)]"
+            ]
+        },
+        {
+            "value": "遠",
+            "result": [
+                "far, distant",
+                "エン [en]",
+                "とお(い) [tou(i)]"
+            ]
+        },
+        {
+            "value": "近",
+            "result": [
+                "near, close",
+                "キン [kin]",
+                "ちか(い) [chika(i)]"
+            ]
+},
+        {
+            "value": "物",
+            "result": [
+                "thing, object",
+                "ブツ、 モツ [butsu, motsu]",
+                "もの [mono]"
+            ]
+        },
+        {
+            "value": "事",
+            "result": [
+                "thing, matter, affair",
+                "ジ、 ズ [ji, zu]",
+                "こと [koto]"
+            ]
+        },
+        {
+            "value": "者",
+            "result": [
+                "person, someone",
+                "シャ [sha]",
+                "もの [mono]"
+            ]
+        },
+        {
+            "value": "代",
+            "result": [
+                "substitute, era, charge",
+                "ダイ、 タイ [dai, tai]",
+                "か(わる)、 よ [ka(waru), yo]"
+            ]
+        },
+        {
+            "value": "所",
+            "result": [
+                "place",
+                "ショ [sho]",
+                "ところ、 どころ [tokoro, dokoro]"
+            ]
+        },
+        {
+            "value": "為",
+            "result": [
+                "for the sake of",
+                "イ [i]",
+                "ため、 な(る)、 な(す) [tame, na(ru), na(su)]"
+            ]
+        },
+        {
+            "value": "側",
+            "result": [
+                "side",
+                "ソク [soku]",
+                "がわ [gawa]"
+            ]
+        },
+        {
+            "value": "々",
+            "result": [
+                "repetition symbol",
+                "ノ [no]",
+                ""
+            ]
+        },
+        {
+            "value": "午",
+            "result": [
+                "noon, midday",
+                "ゴ [go]",
+                "うま [uma]"
+            ]
+        },
+        {
+            "value": "北",
+            "result": [
+                "north",
+                "ホク [hoku]",
+                "きた [kita]"
+            ]
+        },
+        {
+            "value": "南",
+            "result": [
+                "south",
+                "ナン [nan]",
+                "みなみ [minami]"
+            ]
+        },
+        {
+            "value": "名",
+            "result": [
+                "name, fame",
+                "メイ、 ミョウ [mei, myou]",
+                "な [na]"
+            ]
+        },
+        {
+            "value": "駅",
+            "result": [
+                "station",
+                "エキ [eki]",
+                ""
+            ]
+        },
+        {
+            "value": "銀",
+            "result": [
+                "silver, bank",
+                "ギン [gin]",
+                "しろがね [shirogane]"
+            ]
+        },
+        {
+            "value": "映",
+            "result": [
+                "reflect, project",
+                "エイ [ei]",
+                "うつ(る)、 うつ(す) [utsu(ru), utsu(su)]"
+            ]
+        },
+        {
+            "value": "画",
+            "result": [
+                "drawing, picture",
+                "ガ、 カク [ga, kaku]",
+                ""
+            ]
+        },
+        {
+            "value": "料",
+            "result": [
+                "fee, materials",
+                "リョウ [ryou]",
+                ""
+            ]
+        },
+        {
+            "value": "泳",
+            "result": [
+                "swim",
+                "エイ [ei]",
+                "およ(ぐ) [oyo(gu)]"
+            ]
+        },
+        {
+            "value": "旅",
+            "result": [
+                "travel, trip",
+                "リョ [ryo]",
+                "たび [tabi]"
+            ]
+        },
+        {
+            "value": "楽",
+            "result": [
+                "music, pleasure, easy",
+                "ガク、 ラク [gaku, raku]",
+                "たの(しい)、 たの(しむ) [tano(shii), tano(shimu)]"
+            ]
+        },
+        {
+            "value": "真",
+            "result": [
+                "truth, reality",
+                "シン [shin]",
+                "ま [ma]"
+            ]
+        },
+        {
+            "value": "写",
+            "result": [
+                "copy, photograph",
+                "シャ [sha]",
+                "うつ(す)、 うつ(る) [utsu(su), utsu(ru)]"
+            ]
+        },
+        {
+            "value": "真",
+            "result": [
+                "true, genuine",
+                "シン [shin]",
+                "ま [ma]"
+            ]
+        },
+        {
+            "value": "仕",
+            "result": [
+                "serve, work",
+                "シ [shi]",
+                ""
+            ]
+        },
+        {
+            "value": "会",
+            "result": [
+                "meeting, association",
+                "カイ [kai]",
+                "あ(う) [a(u)]"
             ]
         }
     ]
