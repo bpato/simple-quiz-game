@@ -90,7 +90,7 @@
             "result": [
                 "hundred, 100",
                 "ヒャク [hyaku]",
-                ""
+                "もも [momo]"
             ]
         },
         {
@@ -106,7 +106,7 @@
             "result": [
                 "ten thousand, 10000",
                 "マン、 バン [man, ban]",
-                ""
+                "よろず [yoruizu]"
             ]
         },
         {
@@ -714,7 +714,7 @@
             "result": [
                 "electricity",
                 "デン [den]",
-                ""
+                "den"
             ]
         },
         {
@@ -722,7 +722,7 @@
             "result": [
                 "spirit, energy, feeling",
                 "キ、 ケ [ki, ke]",
-                ""
+                "いき [iki]"
             ]
         },
         {
@@ -874,7 +874,7 @@
             "result": [
                 "institution, hospital",
                 "イン [in]",
-                ""
+                "in"
             ]
         },
         {
@@ -906,7 +906,7 @@
             "result": [
                 "reason, logic",
                 "リ [ri]",
-                ""
+                "li"
             ]
         },
         {
@@ -922,7 +922,7 @@
             "result": [
                 "versus, opposite",
                 "タイ、 ツイ [tai, tsui]",
-                ""
+                "tai"
             ]
         },
         {
@@ -938,7 +938,7 @@
             "result": [
                 "every",
                 "マイ [mai]",
-                ""
+                "ごと [goto]"
             ]
         },
         {
@@ -962,7 +962,7 @@
             "result": [
                 "topic, title",
                 "ダイ [dai]",
-                ""
+                "uda"
             ]
         },
         {
@@ -970,7 +970,7 @@
             "result": [
                 "meaning, intention",
                 "イ [i]",
-                ""
+                "i"
             ]
         },
         {
@@ -986,7 +986,7 @@
             "result": [
                 "not, un-",
                 "フ、 ブ [fu, bu]",
-                ""
+                "fu"
             ]
         },
         {
@@ -1100,7 +1100,7 @@
                 "キン [kin]",
                 "ちか(い) [chika(i)]"
             ]
-},
+        },
         {
             "value": "物",
             "result": [
@@ -1162,7 +1162,7 @@
             "result": [
                 "repetition symbol",
                 "ノ [no]",
-                ""
+                " repetition"
             ]
         },
         {
@@ -1202,7 +1202,7 @@
             "result": [
                 "station",
                 "エキ [eki]",
-                ""
+                "えき [eki]"
             ]
         },
         {
@@ -1226,7 +1226,7 @@
             "result": [
                 "drawing, picture",
                 "ガ、 カク [ga, kaku]",
-                ""
+                "gaku"
             ]
         },
         {
@@ -1234,7 +1234,7 @@
             "result": [
                 "fee, materials",
                 "リョウ [ryou]",
-                ""
+                "ryou"
             ]
         },
         {
@@ -1290,7 +1290,7 @@
             "result": [
                 "serve, work",
                 "シ [shi]",
-                ""
+                "shi"
             ]
         },
         {
