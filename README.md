@@ -66,8 +66,25 @@ Edit `src/data/questions.json` to change the questions. The format supports any 
 
 ## Todo List
 
-- [ ] Add a selector to switch modes.
-- [ ] Make the question order aleatoric.
+### Completados
+- ✅ Menú principal con botones (Jugar, Cómo jugar, Acerca de)
+- ✅ Selector de modo horizontal (Traducción/Onyomi/Kunyomi)
+- ✅ Navegación entre pantallas
+- ✅ Soporte para los 3 modos de juego
+- ✅ Recargar juego al cambiar de modo
+- ✅ Estilos para fondo oscuro
+- ✅ Color primary azul (#09f)
+- ✅ Hover con buen contraste
+- ✅ Fix opciones en blanco (filtrar kanjis sin kunyomi)
+- ✅ Completar kunyomis faltantes en JSON
+- ✅ DESIGN.md con documentación
+
+### Pendientes
+- ⏳ Selector de cantidad de preguntas
+- ⏳ Pantalla Cómo jugar
+- ⏳ Pantalla Acerca de
+- ⏳ Animaciones suaves
+- ⏳ PWA (instalable)
 
 ## Acknowledgements
 
