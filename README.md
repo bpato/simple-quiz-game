@@ -78,11 +78,11 @@ Edit `src/data/questions.json` to change the questions. The format supports any 
 - ✅ Fix opciones en blanco (filtrar kanjis sin kunyomi)
 - ✅ Completar kunyomis faltantes en JSON
 - ✅ DESIGN.md con documentación
+- ✅ Pantalla Acerca de
+- ✅ Pantalla Cómo jugar
 
 ### Pendientes
 - ⏳ Selector de cantidad de preguntas
-- ⏳ Pantalla Cómo jugar
-- ⏳ Pantalla Acerca de
 - ⏳ Animaciones suaves
 - ⏳ PWA (instalable)
 

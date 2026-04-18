@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import { MenuScreen } from './components/MenuScreen';
 import { ModeSelector } from './components/ModeSelector';
+import { AboutScreen } from './components/AboutScreen';
+import { HelpScreen } from './components/HelpScreen';
 import { QuestionOption } from './components/QuestionOption';
 import { WinnerModal } from './components/WinnerModal';
 
@@ -16,7 +18,9 @@ import { MODE, questions } from "./data/questions.json";
 const SCREENS = {
     MENU: 'menu',
     MODE: 'mode',
-    GAME: 'game'
+    GAME: 'game',
+    ABOUT: 'about',
+    HELP: 'help'
 };
 
 export default function App() {
@@ -100,10 +104,34 @@ export default function App() {
         setCurrentScreen(SCREENS.MENU);
     };
 
+    const handleAbout = () => {
+        setCurrentScreen(SCREENS.ABOUT);
+    };
+
+    const handleHelp = () => {
+        setCurrentScreen(SCREENS.HELP);
+    };
+
+    if (currentScreen === SCREENS.HELP) {
+        return (
+            <div className="app">
+                <HelpScreen onBack={handleBack} />
+            </div>
+        );
+    }
+
+    if (currentScreen === SCREENS.ABOUT) {
+        return (
+            <div className="app">
+                <AboutScreen onBack={handleBack} />
+            </div>
+        );
+    }
+
     if (currentScreen === SCREENS.MENU) {
         return (
             <div className="app">
-                <MenuScreen onStart={handleStart} />
+                <MenuScreen onStart={handleStart} onAbout={handleAbout} onHelp={handleHelp} />
             </div>
         );
     }

@@ -1,4 +1,4 @@
-export const MenuScreen = ({ onStart }) => {
+export const MenuScreen = ({ onStart, onAbout, onHelp }) => {
     return (
         <div className="menu-screen">
             <div className="menu-content">
@@ -8,10 +8,10 @@ export const MenuScreen = ({ onStart }) => {
                     <button className="menu-btn menu-btn-primary" onClick={onStart}>
                         Jugar
                     </button>
-                    <button className="menu-btn">
+                    <button className="menu-btn" onClick={onHelp}>
                         Cómo jugar
                     </button>
-                    <button className="menu-btn">
+                    <button className="menu-btn" onClick={onAbout}>
                         Acerca de
                     </button>
                 </div>

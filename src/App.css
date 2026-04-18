@@ -1,6 +1,37 @@
 .gq-board h1 {
     text-align: center;
     color: #09f;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+}
+
+.menu-screen,
+.mode-screen,
+.about-screen,
+.help-screen {
+    animation: fadeIn 0.3s ease;
+}
+
+.menu-content,
+.mode-content,
+.about-content,
+.help-content {
+    animation: slideIn 0.4s ease;
 }
 
 .gq-game-header {
@@ -11,6 +42,7 @@
 
 .gq-game-question {
     font-size: 92px;
+    animation: fadeIn 0.3s ease;
 }
 
 .gq-game-responses {
@@ -33,22 +65,48 @@
     font-size: 24px;
     text-align: center;
     padding: 10px;
-    transition: .3s ease background-color;
+    transition: all 0.3s ease;
     color: #fff;
     background: #333;
 }
 
 .gq-game-cell:hover {
     border-color: #09f;
-    background: #09f;
-    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 153, 255, 0.3);
+}
+
+.gq-game-cell:active {
+    animation: pulse 0.15s ease;
 }
 
 .gq-footer {
     padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gq-footer span {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.gq-game-button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.gq-game-button:hover {
+    background-color: #09f;
+    color: #fff;
+    transform: translateY(-2px);
 }
 
 .gq-winner-modal {
@@ -82,6 +140,17 @@
 
 .gq-winner-modal-text footer {
     padding: 10px;
+}
+
+.gq-winner-modal-text .gq-game-button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s ease;
 }
 
 .gq-game-button {
@@ -148,13 +217,19 @@
     background: transparent;
     color: #fff;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
+    animation: fadeIn 0.3s ease backwards;
 }
+
+.menu-btn:nth-child(1) { animation-delay: 0.1s; }
+.menu-btn:nth-child(2) { animation-delay: 0.2s; }
+.menu-btn:nth-child(3) { animation-delay: 0.3s; }
 
 .menu-btn:hover {
     background: #09f;
     border-color: #09f;
     color: #fff;
+    transform: translateY(-2px);
 }
 
 .menu-btn-primary {
@@ -166,6 +241,7 @@
 .menu-btn-primary:hover {
     background: #0077cc;
     border-color: #0077cc;
+    transform: translateY(-2px);
 }
 
 .menu-btn-back {
@@ -209,14 +285,20 @@
     background: transparent;
     color: #fff;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
     flex: 1;
     min-width: 120px;
+    animation: fadeIn 0.3s ease backwards;
 }
+
+.mode-card:nth-child(1) { animation-delay: 0.1s; }
+.mode-card:nth-child(2) { animation-delay: 0.2s; }
+.mode-card:nth-child(3) { animation-delay: 0.3s; }
 
 .mode-card:hover {
     background: #09f;
     border-color: #09f;
+    transform: translateY(-3px);
 }
 
 .mode-icon {
@@ -261,6 +343,175 @@
 .question-counter {
     font-size: 16px;
     color: #aaa;
+}
+
+.about-screen {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-title {
+    font-size: 32px;
+    margin: 0;
+    color: #09f;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.about-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.about-label {
+    color: #888;
+}
+
+.about-value {
+    color: #fff;
+    font-weight: bold;
+}
+
+.about-tech {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-tech-title {
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+}
+
+.about-tags {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.about-tag {
+    padding: 5px 12px;
+    background: #333;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #09f;
+}
+
+.help-screen {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.help-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.help-title {
+    font-size: 32px;
+    margin: 0;
+    color: #09f;
+}
+
+.help-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.help-step {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.help-step-number {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #09f;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.help-step-text {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.4;
+}
+
+.help-step-text strong {
+    color: #fff;
+}
+
+.help-modes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.help-modes-title {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+.help-mode-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.help-mode-name {
+    color: #09f;
+    font-weight: bold;
+}
+
+.help-mode-desc {
+    color: #888;
 }
 
 @media (max-width: 600px) {

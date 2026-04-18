@@ -19,6 +19,8 @@ a {
 }
 
 .main-footer {
-  position: absolute;
+  position: fixed;
   bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
 }
